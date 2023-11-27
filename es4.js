@@ -1,5 +1,5 @@
 function Dado (){
-    return Math.floor(Math.random()*(6)+1);
+    return Math.floor(Math.random()*(6-1)+1);
 }
 let dado1=Dado();
 let dado2=Dado();
